@@ -1,0 +1,47 @@
+.container {
+  text-align: initial;
+  margin-top: 50px;
+}
+
+.components__title {
+  text-align: center;
+  color: goldenrod;
+}
+
+.components__type {
+  margin-top: 50px;
+}
+
+.component__box {
+  height: 50px;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  background-color: whitesmoke;
+  border: 1px solid gray;
+  box-shadow: 2px 3px 3px black;
+  /* Animation */
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.component__box:hover {
+  transform: scale(1.1);
+  background-color: lightgoldenrodyellow;
+}
+
+.component__box a {
+  text-decoration: none;
+  color: crimson;
+  font-weight: 700;
+}
+
+.component__box a:hover {
+  text-decoration: none;
+  color: crimson;
+}
+
+.componentBox__title {
+  text-align: center;
+  padding-top: 10px;
+}

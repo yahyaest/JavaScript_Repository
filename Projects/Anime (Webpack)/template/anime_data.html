@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Ubuntu:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="on-scroll-down on-scroll-up">
+      <div class="container">
+        <div class="title">
+          <h1>Anime API Info</h1>
+        </div>
+        <nav>
+          <div class="menu">
+            <ul class="nav-links">
+              <div>
+                <li><a href="./index.html" class="link">Home</a></li>
+              </div>
+              <div>
+                <li><a href="./anime_data.html" class="link">Anime Data</a></li>
+              </div>
+
+              <div>
+                <li><a href="" class="link">Best Anime</a></li>
+              </div>
+            </ul>
+          </div>
+        </nav>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <h2>Anime Data</h2>
+
+      <div class="data-input">
+        <label for="anime-input">Enter Anime Name:</label>
+        <input type="text" id="anime-input" />
+        <br />
+        <br />
+        <button id="button" class="btn btn-primary">Get Data</button>
+      </div>
+      <br />
+      <br />
+      <div class="data-visualization">
+        <img src="#" alt="" id="poster" />
+        <br />
+        <br />
+        <p>Title: <span id="title"></span></p>
+        <p>Average Rating: <span id="average-rating"></span></p>
+        <p>Rating Rank: <span id="rating-rank"></span></p>
+        <p>Synopsis: <span id="synopsis"></span></p>
+      </div>
+    </main>
+  </body>
+</html>

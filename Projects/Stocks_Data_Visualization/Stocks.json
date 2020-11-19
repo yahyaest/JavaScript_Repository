@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Apple",
+    "symbole": "AAPL"
+  },
+  {
+    "name": "Microsoft",
+    "symbole": "MSFT"
+  },
+  {
+    "name": "Amazon",
+    "symbole": "AMZN"
+  },
+  {
+    "name": "Google",
+    "symbole": "GOOGL"
+  },
+  {
+    "name": "Netflix",
+    "symbole": "NFLX"
+  },
+  {
+    "name": "Tesla",
+    "symbole": "TSLA"
+  },
+  {
+    "name": "Uber",
+    "symbole": "UBER"
+  },
+  {
+    "name": "Twitter",
+    "symbole": "TWTR"
+  },
+  {
+    "name": "Facebook",
+    "symbole": "FB"
+  },
+  {
+    "name": "Snapchat",
+    "symbole": "SNAP"
+  },
+  {
+    "name": "Twilio",
+    "symbole": "TWLO"
+  },
+  {
+    "name": "Nvidia",
+    "symbole": "NVDA"
+  },
+  {
+    "name": "Advanced Micro Devices",
+    "symbole": "AMD"
+  },
+  {
+    "name": "Intel",
+    "symbole": "INTC"
+  },
+  {
+    "name": "IBM",
+    "symbole": "IBM"
+  },
+  {
+    "name": "Oracle",
+    "symbole": "ORCL"
+  },
+  {
+    "name": "Spotify Technology SA",
+    "symbole": "SPOT"
+  },
+  {
+    "name": "Adobe",
+    "symbole": "ADBE"
+  },
+  {
+    "name": "Electronic Arts",
+    "symbole": "EA"
+  },
+  {
+    "name": "Dell Technologies",
+    "symbole": "DELL"
+  },
+  {
+    "name": "Hewlett-Packard",
+    "symbole": "HPQ"
+  },
+  {
+    "name": "VMware",
+    "symbole": "VMW"
+  }
+]

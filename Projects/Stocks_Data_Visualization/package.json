@@ -1,0 +1,16 @@
+{
+  "name": "Stocks_Data_Visualization",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alphavantage": "^2.0.1",
+    "chart.js": "^2.9.3"
+  }
+}

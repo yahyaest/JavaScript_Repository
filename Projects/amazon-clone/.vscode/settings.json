@@ -1,0 +1,14 @@
+{
+  "emojisense.unicodeCompletionsEnabled": true,
+  "emojisense.markupCompletionsEnabled": false,
+  "emojisense.languages": {
+    "markdown": true,
+    "plaintext": {
+      "markupCompletionsEnabled": true,
+      "emojiDecoratorsEnabled": true
+    },
+    "scminput": true,
+    "git-commit": true,
+    "javascript": true
+  }
+}
