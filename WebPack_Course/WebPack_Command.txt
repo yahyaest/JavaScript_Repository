@@ -1,0 +1,48 @@
+npm init
+npm init -y  //fast init
+
+npm install --save-dev webpack webpack-cli  //cli : command line interface
+npm install
+npm install --save-dev bootstrap
+npm install --save-dev jquery popper.js
+//Loaders
+npm install --save-dev style-loader css-loader
+npm install sass-loader sass webpack --save-dev
+npm install sass-loader node-sass --save-dev
+npm install --save-dev html-loader
+npm install file-loader --save-dev
+//Plugins
+npm install --save-dev html-webpack-plugin
+npm install --save-dev mini-css-extract-plugin
+npm install --save-dev optimize-css-assets-webpack-plugin
+npm install --save clean-webpack-plugin
+npm install terser-webpack-plugin --save-dev
+//Merge different webpack config files: commen, dev, prod
+npm install --save-dev webpack-merge
+//
+npm start     for dev mode (build done temporary in memory)
+npm run build      for prod build (build done in dist folder)
+//Live server
+npm install --save-dev webpack-dev-server
+*******************************
+"scripts": {
+    "start":"webpack"
+  },  // in package.json
+
+"scripts": {
+    "start":"webpack --config webpack.config.js"
+  },  // in package.json
+
+"scripts": {
+    "start": "webpack-dev-server --config webpack.dev.js --open",
+    "build": "webpack --config webpack.prod.js"
+  },
+*************************
+const path = require("path");
+module.exports = {
+  entry: "./src/index.js",
+  output: {
+    filename: "main.js",
+    path: path.resolve(__dirname, "dist"),
+  },
+};  // in webpack.config.js

@@ -1,0 +1,8 @@
+.movies-container{
+ display: flex;
+}
+
+.movies-table{
+ width: 70%;
+ margin-left: 2em;
+}

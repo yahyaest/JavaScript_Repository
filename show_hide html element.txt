@@ -1,0 +1,8 @@
+**js
+
+element.classlist.add('invisible')
+element.classlist.remove('invisible')
+
+**html
+
+style="display:none;" //attribut

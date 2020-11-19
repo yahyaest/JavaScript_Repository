@@ -1,0 +1,3 @@
+{
+	"payload": "[{\"type\":\"bugAdded\",\"payload\":{\"description\":\"Bug 1\"}},{\"type\":\"bugAdded\",\"payload\":{\"description\":\"Bug 2\"}},{\"type\":\"bugResolved\",\"payload\":{\"id\":2}},{\"type\":\"bugRemoved\",\"payload\":{\"id\":1}}]"
+}
