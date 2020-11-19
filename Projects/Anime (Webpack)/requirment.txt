@@ -1,9 +1,0 @@
-I.Design:
--/Implement responsive design for both mobile and pc view 
-
-II.Logic:
--/Use anime api to get data 
--/Visualize that data
-
-III.Webpack
--/Implement webpack + bootstrap + jquery + sass 

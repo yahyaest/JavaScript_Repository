@@ -1,6 +1,0 @@
-https://api-v3.igdb.com
-App name
-yahya_machat's App
-Key
-65958e5836ed5dcfc0d6d06b23a8a1d6
-Add this as a user-key parameter to your API calls to authenticate.
