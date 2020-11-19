@@ -1,0 +1,32 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="Text"></p>
+    <script>
+            let students = [
+              {
+               "name": "rami",
+               "age": 30,
+               "height": 165
+              },
+              {
+               "name": "sami",
+               "age": 25,
+               "height": 155
+              }
+             ]
+
+            let stringStudents = JSON.stringify(students);
+            console.log(stringStudents);
+            console.log(JSON.parse(stringStudents));
+            console.log(JSON.parse(stringStudents)[0]['name']);
+            console.log(JSON.parse(stringStudents)[1].age);
+    </script>
+
+    <script src="./home.js"></script>
+  </body>
+</html>

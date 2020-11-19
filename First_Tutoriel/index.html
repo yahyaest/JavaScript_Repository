@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ScriptTest</title>
+    <link rel="stylesheet" href="./index.css" />
+    <!-- <script src="index.js"></script> -->
+    <script src="tutoriel.js"></script>
+  </head>
+  <body>
+    <h1>Inflation impact on savings calculator</h1>
+    <img src="./Images/inflation.jpg" alt="Inflation" width="100%" />
+    <br />
+    <h3>How Can Inflation Impact Your Savings?</h3>
+
+    <p>
+      Over time, inflation can reduce the value of your savings, because prices
+      typically go up in the future. This is most noticeable with cash. If you
+      keep $10,000 under your bed, that money may not be able to buy as much 20
+      years into the future.<br />
+      While you haven't actually lost money, you end up with a smaller net worth
+      because inflation eats into your purchasing power.
+    </p>
+
+    <br />
+    <h3>Potential caused lost by inflation</h3>
+
+    <p>
+      To calculate the potential lost caused by inflation you can use the
+      example below.
+    </p>
+    <p>All you need to do is to enter the following parameters:</p>
+    <ul>
+      <li>Intial Savings</li>
+      <li>Mounthly Savings</li>
+      <li>Numbers of Years</li>
+    </ul>
+    <p>
+      And then press Calculate button to get result knowning that the average
+      inflation rate is 7%
+    </p>
+    <label for="init">intialSaving :</label>
+    <input type="number" name="" id="init" />
+    <br />
+    <br />
+    <label for="mounth">mounthlySaving :</label>
+    <input type="number" name="" id="mounth" />
+
+    <br />
+    <br />
+    <label for="years">yearsNubmer :</label>
+    <input type="number" name="" id="years" />
+    <br />
+    <br />
+
+    <button onclick="PrintResult()">Calculate</button>
+    <input type="submit" value="Reset" onclick="deleteFlex()" />
+
+    <br />
+    <br />
+
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery Selectors</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <style>
+      body {
+        font-size: 17px;
+        font-family: arial;
+        background: #f4f4f4;
+        line-height: 1.5em;
+      }
+
+      header {
+        background: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        border-bottom: 4px #000 solid;
+        margin-bottom: 10px;
+      }
+
+      #container {
+        width: 90%;
+        margin: auto;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>jQuery Crash Course - Selectors</h1>
+    </header>
+    <div id="container">
+      <h1 id="heading1">Heading One</h1>
+      <p id="para1">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda,
+        odio nulla.<span
+          >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero iure
+          cumque voluptatum exercitationem pariatur beatae cupiditate numquam
+          eligendi necessitatibus molestias.</span
+        >
+        Doloribus consequuntur facere ipsum rem laborum sunt repellendus nihil,
+        expedita, error pariatur quis odit, quod optio provident. Molestiae quos
+        quaerat error provident iure harum tenetur corrupti facilis culpa
+        molestias itaque illo dolor pariatur, reiciendis ab! Perspiciatis, error
+        doloribus? Ab?
+      </p>
+
+      <h1 class="heading2">Heading Two</h1>
+      <p class="para2">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda,
+        odio nulla.<span
+          >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero iure
+          cumque voluptatum exercitationem pariatur beatae cupiditate numquam
+          eligendi necessitatibus molestias.</span
+        >
+        Doloribus consequuntur facere ipsum rem laborum sunt repellendus nihil,
+        expedita, error pariatur quis odit, quod optio provident. Molestiae quos
+        quaerat error provident iure harum tenetur corrupti facilis culpa
+        molestias itaque illo dolor pariatur, reiciendis ab! Perspiciatis, error
+        doloribus? Ab?
+      </p>
+
+      <ul id="list">
+        <li>List Item</li>
+        <li>List Item</li>
+        <li>List Item</li>
+        <li>List Item</li>
+        <li>List Item</li>
+        <li>List Item</li>
+      </ul>
+
+      <input type="button" value="Button 1" name="" id="" />
+      <input type="submit" name="" id="" />
+      <input type="text" name="" id="" />
+
+      <a href="http://google.com">Google Link</a>
+      <a href="http://youtube.com">Youtube Link</a>
+    </div>
+
+    <script>
+      //$("h1").hide();
+      //$("h1#heading1").hide();
+      //$("h1.heading2").hide();
+      //$(".heading2").hide();
+      //$("*").hide();
+
+      $("p span").css("color", "red");
+      $("ul#list li:first").css("color", "blue");
+      $("ul#list li:last").css("color", "green");
+      $("ul#list li:even").css("background-color", "gold");
+      $("ul#list li:odd").css("background-color", "silver");
+      $("ul#list li:nth-child(3n)").css("list-style", "none");
+
+      //$("input").hide();
+      //$(":button").hide();
+      $(":submit").hide();
+
+      $("[href]").css("color", "green");
+      $('a[href="http://youtube.com"]').css("color", "red");
+    </script>
+  </body>
+</html>
